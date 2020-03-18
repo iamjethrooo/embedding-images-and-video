@@ -1,0 +1,30 @@
+header {
+	display: inline-flex;
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	z-index: 100;
+}
+nav {
+	height: 100%;
+}
+.links {
+	min-width: 200px;
+	width: 200px;
+}
+.links img{
+	height: 45%;
+	padding: 8px 6px;
+	cursor: pointer;
+}
+
+body {
+	background-color: #f9f9f9;
+	margin-top: 75px;
+}
+
+body h1 {
+	font-weight: 400;
+}
