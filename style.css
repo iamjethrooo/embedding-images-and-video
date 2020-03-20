@@ -1,30 +1,112 @@
-header {
-	display: inline-flex;
-	background-color: white;
-	position: fixed;
-	width: 100%;
-	height: 60px;
-	top: 0;
-	z-index: 100;
-}
-nav {
-	height: 100%;
-}
-.links {
-	min-width: 200px;
-	width: 200px;
-}
-.links img{
-	height: 45%;
-	padding: 8px 6px;
-	cursor: pointer;
-}
-
 body {
-	background-color: #f9f9f9;
-	margin-top: 75px;
+  background: #dbdbdb;
 }
 
-body h1 {
-	font-weight: 400;
+main {
+  padding-top: 80px;
+}
+
+header {
+  background: white;
+  width: 100%;
+  text-align: center;
+}
+
+header div {
+  display: inline-block;
+  line-height: 56px;
+  height: 56px;
+  vertical-align: middle;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+.navbar-left {
+  float: left;
+  display: inline-block;
+  /* background: black; */
+}
+
+.navbar-left img {
+  margin-left: 23px;
+  vertical-align: middle;
+}
+
+.searchbar {
+  margin-top: 12px;
+  display: inline-flex;
+  height: 32px;
+  width: 575px;
+  border: 1px solid #dfe1e5;
+}
+
+#searchbox:focus {
+  border: 1px solid turquoise;
+}
+
+.navbar-right {
+  float: right;
+  display: inline-block;
+}
+
+.navbar-right img {
+  margin-right: 27px;
+  vertical-align: middle;
+}
+
+#hamburger-menu {
+  opacity: 0.65;
+  height: 18px;
+}
+
+#youtube-logo {
+  width: 80px;
+}
+
+#searchbox {
+  outline: none;
+  border: none;
+  width: 575px;
+  font-size: 16px;
+}
+#searchbutton {
+  cursor: pointer;
+  width: 65px;
+  height: 32px;
+  border: 1px solid #d3d3d3;
+  background-color: #f8f8f8;
+  border-radius: 0 2px 2px 0;
+}
+
+#searchbutton img {
+  height: 13px;
+  opacity: 0.55;
+}
+
+#searchbutton:hover {
+  background-color: #e2e2e2;
+  opacity: 1;
+}
+
+#create-video-icon {
+  opacity: 0.65;
+  height: 18px;
+}
+
+#apps-icon {
+  opacity: 0.65;
+  height: 17px;
+}
+
+#bell-icon {
+  opacity: 0.65;
+  height: 25px;
+}
+
+#user-icon {
+  height: 32px;
+  border-radius: 50%;
 }
