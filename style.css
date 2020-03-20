@@ -1,9 +1,10 @@
 body {
-  background: #dbdbdb;
+  background: #f9f9f9;
 }
 
 main {
   padding-top: 80px;
+  margin-left: 36px;
 }
 
 header {
@@ -27,7 +28,6 @@ header div {
 .navbar-left {
   float: left;
   display: inline-block;
-  /* background: black; */
 }
 
 .navbar-left img {
@@ -43,10 +43,6 @@ header div {
   border: 1px solid #dfe1e5;
 }
 
-#searchbox:focus {
-  border: 1px solid turquoise;
-}
-
 .navbar-right {
   float: right;
   display: inline-block;
@@ -55,6 +51,10 @@ header div {
 .navbar-right img {
   margin-right: 27px;
   vertical-align: middle;
+}
+
+.information {
+  padding-top: 20px;
 }
 
 #hamburger-menu {
@@ -72,6 +72,11 @@ header div {
   width: 575px;
   font-size: 16px;
 }
+
+#searchbox:focus {
+  border: 1px solid turquoise;
+}
+
 #searchbutton {
   cursor: pointer;
   width: 65px;
@@ -109,4 +114,17 @@ header div {
 #user-icon {
   height: 32px;
   border-radius: 50%;
+}
+
+#video-title {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#views-and-date {
+  max-height: 2.1rem;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 2.1rem;
+  color: #606060;
 }
