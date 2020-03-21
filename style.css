@@ -5,6 +5,7 @@ body {
 main {
   padding-top: 80px;
   margin-left: 36px;
+  max-width: 853px;
 }
 
 header {
@@ -55,6 +56,40 @@ header div {
 
 .information {
   padding-top: 20px;
+}
+.details div {
+  height: 40px;
+  line-height: 40px;
+}
+.details-left {
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+}
+
+.details-right {
+  float: right;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.details-right h3 {
+  display: inline-block;
+  color: #606060;
+  font-size: 13px;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.details-right img {
+  display: inline-block;
+  max-height: 13px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+#like-dislike-button {
+  max-height: 15px;
 }
 
 #hamburger-menu {
@@ -123,8 +158,13 @@ header div {
 
 #views-and-date {
   max-height: 2.1rem;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 2.1rem;
   color: #606060;
+}
+
+#more-button {
+  opacity: 0.5;
+  margin-right: 12px;
 }
