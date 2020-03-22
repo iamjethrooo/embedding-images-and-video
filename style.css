@@ -98,12 +98,31 @@ header div {
 }
 
 .channel-left {
-  display: inline-block;
+  float: left;
+  margin-left: 10px;
   vertical-align: middle;
 }
 
 .channel-right {
   float: right;
+}
+
+.video-description {
+  display: block;
+  padding-top: 25px;
+  padding-left: 60px;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.video-description p {
+  font-size: 14px;
+}
+
+.video-description a {
+  color: #065fd4;
+  text-decoration-line: none;
 }
 
 #like-dislike-button {
@@ -193,7 +212,8 @@ header div {
 }
 
 #channel-icon {
-  display: inline-block;
+  float: left;
+  margin-top: -10px;
   vertical-align: middle;
 }
 
@@ -207,10 +227,10 @@ header div {
 }
 
 #subscriber-count {
-  display: block;
   color: #606060;
   font-size: 13px;
   text-decoration: none;
+  vertical-align: middle;
 }
 
 #subscribe-button {
@@ -220,4 +240,13 @@ header div {
   border: none;
   vertical-align: middle;
   margin-right: 10px;
+}
+
+#show-more {
+  outline: none;
+  border: none;
+  background: none;
+  color: #606060;
+  padding: 15px 0;
+  cursor: pointer;
 }
