@@ -28,7 +28,6 @@ header div {
 
 .navbar-left {
   float: left;
-  display: inline-block;
 }
 
 .navbar-left img {
@@ -46,7 +45,6 @@ header div {
 
 .navbar-right {
   float: right;
-  display: inline-block;
 }
 
 .navbar-right img {
@@ -57,19 +55,24 @@ header div {
 .information {
   padding-top: 20px;
 }
+
+.details {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #bdbdbd;
+}
+
 .details div {
   height: 40px;
   line-height: 40px;
 }
 .details-left {
-  display: inline-block;
   float: left;
   vertical-align: middle;
 }
 
 .details-right {
   float: right;
-  display: inline-block;
   vertical-align: middle;
 }
 
@@ -79,6 +82,7 @@ header div {
   font-size: 13px;
   font-weight: 500;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .details-right img {
@@ -86,6 +90,20 @@ header div {
   max-height: 13px;
   padding-left: 20px;
   vertical-align: middle;
+  cursor: pointer;
+}
+
+.channel-info {
+  padding-top: 10px;
+}
+
+.channel-left {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.channel-right {
+  float: right;
 }
 
 #like-dislike-button {
@@ -144,6 +162,7 @@ header div {
 #bell-icon {
   opacity: 0.65;
   height: 25px;
+  vertical-align: middle;
 }
 
 #user-icon {
@@ -167,4 +186,38 @@ header div {
 #more-button {
   opacity: 0.5;
   margin-right: 12px;
+}
+
+#more-button:hover {
+  opacity: 0.85;
+}
+
+#channel-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#channel-name {
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration-line: none;
+  vertical-align: middle;
+}
+
+#subscriber-count {
+  display: block;
+  color: #606060;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+#subscribe-button {
+  line-height: 30px;
+  color: #606060;
+  background: #d3d3d3;
+  border: none;
+  vertical-align: middle;
+  margin-right: 10px;
 }
