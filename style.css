@@ -5,13 +5,23 @@ body {
 main {
   padding-top: 80px;
   margin-left: 36px;
+  width: 853px;
   max-width: 853px;
+  float: left;
+}
+
+aside {
+  display: inline-flex;
+  padding-top: 80px;
+  padding-left: 20px;
+  float: left;
 }
 
 header {
   background: white;
   width: 100%;
   text-align: center;
+  z-index: 0;
 }
 
 header div {
@@ -33,6 +43,7 @@ header div {
 .navbar-left img {
   margin-left: 23px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .searchbar {
@@ -50,6 +61,7 @@ header div {
 .navbar-right img {
   margin-right: 27px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .information {
@@ -110,11 +122,8 @@ header div {
 
 .video-description {
   display: block;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-left: 60px;
-  width: 100%;
-  overflow: hidden;
-  border-bottom: 1px solid #bdbdbd;
 }
 
 .video-description p {
@@ -127,6 +136,7 @@ header div {
 }
 
 .comments-top {
+  border-top: 1px solid #bdbdbd;
   padding-top: 24px;
 }
 
@@ -159,6 +169,54 @@ header div {
   font-size: 12px;
   color: #606060;
   vertical-align: middle;
+}
+
+.recommended-video {
+  max-width: 402px;
+  max-height: 94px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.recommended-video-thumbnail {
+  display: inline-block;
+}
+
+.recommended-video-details {
+  display: inline-block;
+  width: 202px;
+  height: 94px;
+  margin-left: 5px;
+}
+
+.recommended-video-title {
+  float: left;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-bottom: 4px;
+}
+
+.recommended-video-channel {
+  float: left;
+  display: block;
+  font-size: 13px;
+  color: #606060;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.recommended-video-views {
+  float: left;
+  display: block;
+  font-size: 13px;
+  color: #606060;
+  width: 100%;
 }
 
 #like-dislike-button {
@@ -250,6 +308,7 @@ header div {
 #channel-icon {
   float: left;
   margin-top: -10px;
+  border-radius: 50%;
   vertical-align: middle;
 }
 
