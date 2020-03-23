@@ -94,7 +94,7 @@ header div {
 }
 
 .channel-info {
-  padding-top: 10px;
+  padding-top: 25px;
 }
 
 .channel-left {
@@ -110,7 +110,7 @@ header div {
 
 .video-description {
   display: block;
-  padding-top: 25px;
+  padding-top: 20px;
   padding-left: 60px;
   width: 100%;
   overflow: hidden;
@@ -124,6 +124,41 @@ header div {
 .video-description a {
   color: #065fd4;
   text-decoration-line: none;
+}
+
+.comments-top {
+  padding-top: 24px;
+}
+
+.comments-top p {
+  display: inline-block;
+}
+
+.comment-info {
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 8px;
+  max-width: 80%;
+}
+
+.comment {
+  margin: 16px 0;
+}
+.comment-buttons-container {
+  margin-left: 53px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.comment-buttons-container img {
+  height: 15px;
+  vertical-align: middle;
+}
+.comment-buttons-container a {
+  margin-left: 5px;
+  margin-right: 8px;
+  font-size: 12px;
+  color: #606060;
+  vertical-align: middle;
 }
 
 #like-dislike-button {
@@ -239,8 +274,10 @@ header div {
   color: #606060;
   background: #d3d3d3;
   border: none;
+  outline: none;
   vertical-align: middle;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 #show-more {
@@ -250,4 +287,76 @@ header div {
   color: #606060;
   padding: 15px 0;
   cursor: pointer;
+}
+
+#sort-button {
+  display: inline-block;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #606060;
+  font-weight: bold;
+}
+
+#sort-button img {
+  opacity: 0.55;
+  height: 12px;
+  padding-left: 18px;
+  padding-right: 13px;
+}
+
+#commenter-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#commenter {
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+#comment-date {
+  display: inline-block;
+  color: #606060;
+  font-size: 13px;
+}
+
+#comment {
+  display: block;
+  font-size: 14px;
+  font-weight: 400px;
+  padding-top: 8px;
+  overflow-wrap: break-word;
+}
+
+#comment a {
+  color: #065fd4;
+  text-decoration-line: none;
+}
+
+#reply-button {
+  background: none;
+  outline: none;
+  border: none;
+  color: #606060;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#view-reply-button {
+  outline: none;
+  border: none;
+  background: none;
+  display: block;
+  color: #62c9ed;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+#view-reply-button img {
+  height: 7px;
 }
